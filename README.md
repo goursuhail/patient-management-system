@@ -38,9 +38,11 @@ Ensure the following are installed on your system:
    git clone <REPOSITORY_URL>
    cd <PROJECT_DIRECTORY>
 2. **Install dependencies**
+    ```bash
     npm install
 3. **Configure environment variables**
 4. **Start the application**
+    ```bash
     npm start
 
 
