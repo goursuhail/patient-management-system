@@ -1,41 +1,56 @@
-Patient Management System
+# Patient Management System
 
-The Patient Management System is a web-based application designed to manage patient records, medical histories, and appointments efficiently. The system provides access controls for patients, doctors, and administrators.
+The **Patient Management System** is a comprehensive web-based solution designed to streamline the management of patient records, medical histories, and appointments. With tailored access for patients, doctors, and administrators, it ensures seamless healthcare coordination and efficient management.
 
--   Features
-        Patients
-            View and update personal details.
-            View their medical history.
-            Book appointments with doctors.
-        Doctors
-            View assigned patients' details and medical history.
-            Update patient treatment records.
-        Admins
-            Manage all patient records, doctor profiles, and appointments.
+---
 
--   Installation
+## **Features**
 
-- Prerequisites
-    Node.js >= v14
-    MongoDB >= v4.2
-    npm or yarn
+### **Patients**
+- Access and update personal details.
+- View detailed medical history.
+- Schedule and manage appointments with doctors.
 
-- Steps - 
-    1 Clone the repository:
-        git clone <REPOSITORY_URL>
-        cd <PROJECT_DIRECTORY>
-    2 Install dependencies:
-        npm install
-    3 Configure environment variables:
-    4 Start the application:
-        npm start
+### **Doctors**
+- Access assigned patients' profiles and medical history.
+- Update treatment records and monitor patient progress.
+
+### **Admins**
+- Oversee all patient records and doctor profiles.
+- Manage appointments and maintain data integrity.
+
+---
+
+## **Installation Guide**
+
+### **Prerequisites**
+Ensure the following are installed on your system:
+- **Node.js**: v14 or higher
+- **MongoDB**: v4.2 or higher
+- **npm** or **yarn**
+
+---
+
+### **Installation Steps**
+
+1. **Clone the Repository**  
+   ```bash
+   git clone <REPOSITORY_URL>
+   cd <PROJECT_DIRECTORY>
+2. **Install dependencies**
+    npm install
+3. **Configure environment variables**
+4. **Start the application**
+    npm start
 
 
-- Technologies Used
+### **Note** 
+- An admin account will be created by default by invoking the creation function when the server starts.
+
+### **Technologies Used**
+    ```bash
     Backend: Node.js, Express.js
     Database: MongoDB with Mongoose
     Validation: Joi
     Authentication: JWT
 
-    Note -
-    An admin account will be created by default by invoking the creation function when the server starts.
