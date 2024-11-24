@@ -1,0 +1,15 @@
+node_modules
+build
+public
+views
+customScripts
+README.md
+test
+src/logs
+.github
+.gitignore
+.eslintignore
+.eslintrc.js
+.prettierrc.js
+.nodemon.json
+.package.json
